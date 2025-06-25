@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="WEO3 - Premier Web3 Design Agency offering UI/UX Design, Development, and Digital Solutions">
+    <meta name="keywords" content="web3, design agency, UI/UX, development, NFT, blockchain">
+    <title>WEO3 - Web3 Design Agency | Premium Digital Solutions</title>
+
+    <!-- Preload critical resources -->
+    <link rel="preload" href="./head-img.png" as="image">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- Google Fonts for better typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loader">
+            <div class="loader-text">WEO<sub>3</sub></div>
+            <div class="loader-bar">
+                <div class="loader-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cursor -->
+    <div class="custom-cursor">
+        <div class="cursor-dot"></div>
+        <div class="cursor-outline"></div>
+    </div>
+
+    <div class="main">
+        <!-- Background Elements -->
+        <div class="leftbgcolor"></div>
+        <div class="rightbgcolor"></div>
+
+        <!-- Mobile Menu Overlay -->
+        <div class="mobile-menu-overlay" id="mobileMenuOverlay">
+            <nav class="mobile-nav">
+                <button class="mobile-menu-close" id="mobileMenuClose">
+                    <i class="ri-close-line"></i>
+                </button>
+                <ul class="mobile-nav-links">
+                    <li><a href="#products">PRODUCTS</a></li>
+                    <li><a href="#solutions">SOLUTIONS</a></li>
+                    <li><a href="#customer">CUSTOMER</a></li>
+                    <li><a href="#pricing">PRICING</a></li>
+                    <li><a href="#resources">RESOURCES</a></li>
+                    <li><a href="#register" class="mobile-cta">REGISTER NOW</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Hero Section -->
+        <section class="page1" id="hero">
+            <header class="nav">
+                <div class="left-nav">
+                    <h2 class="logo">WEO<sub>3</sub></h2>
+                </div>
+                <nav class="mid-nav" role="navigation">
+                    <h4 class="nav-link">PRODUCTS</h4>
+                    <h4 class="nav-link">SOLUTIONS</h4>
+                    <h4 class="nav-link">CUSTOMER</h4>
+                    <h4 class="nav-link">PRICING</h4>
+                    <h4 class="nav-link">RESOURCES</h4>
+                </nav>
+                <div class="right-nav">
+                    <h4 class="cta-button">
+                        REGISTER NOW <i class="ri-arrow-right-up-line"></i>
+                    </h4>
+                </div>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle mobile menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </header>
+
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="title-line">Web<sub>3</sub> Design</span>
+                    <span class="title-line accent">Agency.</span>
+                </h1>
+
+                <div class="page1Content">
+                    <div class="leftContent">
+                        <div class="stat-card lefttop">
+                            <span class="stat-number">240+</span>
+                            <span class="stat-label">PARTNERS</span>
+                        </div>
+                        <div class="stat-card leftbottom">
+                            <span class="stat-number">90%</span>
+                            <span class="stat-label">FASTER TECHNOLOGY</span>
+                        </div>
+                    </div>
+                    <div class="midContent">
+                        <div class="hero-image-container">
+                            <img src="./head-img.png" alt="Web3 Design Innovation" class="hero-image">
+                            <div class="image-glow"></div>
+                            <div class="floating-elements">
+                                <div class="float-element float-1"></div>
+                                <div class="float-element float-2"></div>
+                                <div class="float-element float-3"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rightContent">
+                        <p class="hero-description">
+                            Better data leads to more<br>
+                            performance models.<br>
+                            Performance models lead to<br>
+                            faster deployment
+                        </p>
+                        <button class="primary-button">
+                            <span>GET STARTED</span>
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="scroller">
+                <div class="scroller-content">
+                    <h5><span class="scroll-icon">✦</span>Website Design</h5>
+                    <h5><span class="scroll-icon">✦</span>Dashboard</h5>
+                    <h5><span class="scroll-icon">✦</span>NFT ART</h5>
+                    <h5><span class="scroll-icon">✦</span>Development</h5>
+                    <h5><span class="scroll-icon">✦</span>Strategy</h5>
+                    <h5><span class="scroll-icon">✦</span>Motion Design</h5>
+                    <h5><span class="scroll-icon">✦</span>Logo Design</h5>
+                    <h5><span class="scroll-icon">✦</span>Quick Development</h5>
+                    <h5><span class="scroll-icon">✦</span>Quick Deployment</h5>
+                    <h5><span class="scroll-icon">✦</span>Maintenance</h5>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="page2" id="services">
+            <div class="section-header">
+                <h1 class="section-title">Our Services</h1>
+            </div>
+
+            <div class="page2content">
+                <div class="page2left">
+                    <div class="service-badge">Featured Service</div>
+                    <h1 class="service-title">UI/UX Design</h1>
+                    <p class="service-description">
+                        We are a team of designers and developers who create beautiful and
+                        functional websites and applications. We believe that design should be simple,
+                        elegant and user-friendly. We are passionate about creating great user experiences and we strive
+                        to make the web a better place for everyone.
+                    </p>
+                    <div class="service-features">
+                        <h4 class="feature-item">
+                            <i class="ri-checkbox-circle-line"></i>
+                            User Interface design
+                        </h4>
+                        <h4 class="feature-item">
+                            <i class="ri-checkbox-circle-line"></i>
+                            User Experience design
+                        </h4>
+                        <h4 class="feature-item">
+                            <i class="ri-checkbox-circle-line"></i>
+                            Mobile Application design
+                        </h4>
+                    </div>
+                    <button class="secondary-button">
+                        <span>LEARN MORE</span>
+                        <i class="ri-arrow-right-up-line"></i>
+                    </button>
+                </div>
+                <div class="page2right">
+                    <div class="service-image-container">
+                        <img src="./head-img.png" alt="UI/UX Design Services" class="service-image">
+                        <div class="image-overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Statistics & Testimonials Section -->
+        <section class="page3" id="testimonials">
+            <div class="ratingpage3">
+                <div class="stats-grid">
+                    <div class="stat-box box1">
+                        <span class="stat-number">5M+</span>
+                        <h5 class="stat-label">Customers</h5>
+                    </div>
+                    <div class="stat-box box2">
+                        <span class="stat-number">450M+</span>
+                        <h5 class="stat-label">Coverage</h5>
+                    </div>
+                    <div class="stat-box box3">
+                        <span class="stat-number">22%</span>
+                        <h5 class="stat-label">Earning</h5>
+                    </div>
+                    <div class="stat-box box4">
+                        <span class="stat-number">8.03%</span>
+                        <h5 class="stat-label">Interest</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonials-header">
+                <h1 class="section-title">Our Happy Customers</h1>
+            </div>
+
+            <div class="customerratings">
+                <div class="testimonial-card rating1">
+                    <div class="profile">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80&ixlib=rb-4.0.3"
+                            alt="Customer Profile">
+                        <span class="reaction">❤️</span>
+                    </div>
+                    <div class="rating">
+                        <span>⭐⭐⭐⭐⭐</span>
+                    </div>
+                    <p class="testimonial-text">
+                        Outstanding service and incredible attention to detail. The team delivered exactly what we
+                        needed and exceeded our expectations.
+                    </p>
+                    <h5 class="customer-name">Michael Prince</h5>
+                    <h6 class="customer-title">Founder of TechCorp</h6>
+                </div>
+
+                <div class="testimonial-card rating1">
+                    <div class="profile">
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&auto=format&fit=crop&q=80&ixlib=rb-4.0.3"
+                            alt="Customer Profile">
+                        <span class="reaction">😍</span>
+                    </div>
+                    <div class="rating">
+                        <span>⭐⭐⭐⭐⭐</span>
+                    </div>
+                    <p class="testimonial-text">
+                        Amazing work! The design is modern, functional, and perfectly captures our brand identity.
+                        Highly recommended!
+                    </p>
+                    <h5 class="customer-name">John Doe</h5>
+                    <h6 class="customer-title">CEO of StartupXYZ</h6>
+                </div>
+
+                <div class="testimonial-card rating1">
+                    <div class="profile">
+                        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80&ixlib=rb-4.0.3"
+                            alt="Customer Profile">
+                        <span class="reaction">👌</span>
+                    </div>
+                    <div class="rating">
+                        <span>⭐⭐⭐⭐⭐</span>
+                    </div>
+                    <p class="testimonial-text">
+                        Professional team with innovative solutions. They transformed our vision into reality with
+                        exceptional craftsmanship.
+                    </p>
+                    <h5 class="customer-name">Alex Rodriguez</h5>
+                    <h6 class="customer-title">Creative Director</h6>
+                </div>
+
+                <div class="testimonial-card rating1">
+                    <div class="profile">
+                        <img src="https://images.unsplash.com/photo-1519345182560-3f2917c472ef?w=150&auto=format&fit=crop&q=80&ixlib=rb-4.0.3"
+                            alt="Customer Profile">
+                        <span class="reaction">🚀</span>
+                    </div>
+                    <div class="rating">
+                        <span>⭐⭐⭐⭐⭐</span>
+                    </div>
+                    <p class="testimonial-text">
+                        Incredible results! Our website performance improved dramatically and user engagement increased
+                        by 300%.
+                    </p>
+                    <h5 class="customer-name">Sarah Johnson</h5>
+                    <h6 class="customer-title">Marketing Lead</h6>
+                </div>
+
+                <div class="testimonial-card rating1">
+                    <div class="profile">
+                        <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150&auto=format&fit=crop&q=80&ixlib=rb-4.0.3"
+                            alt="Customer Profile">
+                        <span class="reaction">✨</span>
+                    </div>
+                    <div class="rating">
+                        <span>⭐⭐⭐⭐⭐</span>
+                    </div>
+                    <p class="testimonial-text">
+                        Top-notch quality and exceptional service. The team is responsive, creative, and delivers on
+                        time every time.
+                    </p>
+                    <h5 class="customer-name">David Chen</h5>
+                    <h6 class="customer-title">Product Manager</h6>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer Section -->
+        <section class="page4" id="footer">
+            <div class="page4leftbg"></div>
+            <div class="page4rightbg"></div>
+            <div class="page4Overlay">
+                <footer class="main-footer">
+                    <div class="footer-content">
+                        <div class="leftpartfooter">
+                            <h1 class="footer-logo">WEO<sub>3</sub></h1>
+                            <p class="footer-description">
+                                Transforming digital experiences through innovative Web3 design solutions.
+                                We create the future of digital interaction, one pixel at a time.
+                            </p>
+                            <div class="linkscontainer">
+                                <a href="#" class="social-link facebook">
+                                    <i class="ri-facebook-fill"></i>
+                                </a>
+                                <a href="#" class="social-link twitter">
+                                    <i class="ri-twitter-fill"></i>
+                                </a>
+                                <a href="#" class="social-link instagram">
+                                    <i class="ri-instagram-fill"></i>
+                                </a>
+                                <a href="#" class="social-link youtube">
+                                    <i class="ri-youtube-fill"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="midpartfooter">
+                            <h2 class="footer-section-title">Useful Links</h2>
+                            <ul class="footer-links">
+                                <li><a href="#" class="footer-link">iOS Apps</a></li>
+                                <li><a href="#" class="footer-link">Contact Us</a></li>
+                                <li><a href="#" class="footer-link">Terms & Conditions</a></li>
+                                <li><a href="#" class="footer-link">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="rightpartfooter">
+                            <h2 class="footer-section-title">Contact Us</h2>
+                            <div class="contact-info">
+                                <h4 class="contact-item">
+                                    <i class="ri-phone-line"></i>
+                                    <span>+91 9006000884</span>
+                                </h4>
+                                <h4 class="contact-item">
+                                    <i class="ri-mail-line"></i>
+                                    <span>hello@weo3.design</span>
+                                </h4>
+                                <h4 class="contact-item">
+                                    <i class="ri-map-pin-line"></i>
+                                    <span>San Francisco, CA</span>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+
+                <div class="footer-bottom">
+                    <h6 class="copyright">© 2024 WEO3. All Rights Reserved</h6>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"
+        integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollToPlugin.min.js" integrity="sha512-kz526itdNcpyMs18TLPOhsnIeOIO1JywWKbbF77zR+ZKpZ4gwubXhwaURHpt5Se9AAqSK2j8ID0LnfXsB2Jkjg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+     -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"
+        integrity="sha512-P2IDYZfqSwjcSjX0BKeNhwRUH8zRPGlgcWl5n6gBLzdi4Y5/0O4zaXrtO4K9TZK6Hn1BenYpKowuCavNandERg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/TextPlugin.min.js"
+        integrity="sha512-8BkFnMa5pqmphA7XoSbkjP2qX7Gqlkel2C+p1g1AH1tW4cBJs2tumC0Zn9eNRBOKbe3dW9OtbYh/vpkGuZNTMw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+    <script src="script.js"></script>
+</body>
+
+</html>
